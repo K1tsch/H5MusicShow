@@ -1,0 +1,38 @@
+body{
+    background-color:black;
+}
+li{
+    list-style: none;
+}
+body h1{
+    color:white;
+}
+.music{
+    margin-top:0.5rem;
+}
+#box{
+    height:30rem;
+}
+.music li{
+    cursor:pointer;
+    font-size:1.5rem;
+    color:white;
+}
+.musicList{
+    width:100%;
+    text-align:center;
+}
+.musicList span{
+    border-radius:0.5rem;
+    font-size:2rem;
+    cursor:pointer;
+    color:white;
+}
+.musicList .selected{
+    background-color:grey;
+    color:white;
+}
+#music-left{
+    min-height:30rem;
+    border-right:1px dotted grey;
+}
